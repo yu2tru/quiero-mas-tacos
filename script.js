@@ -19,6 +19,16 @@
     en: {
       "meta.title": "Quiero Más Tacos | Mexican Food Truck & Catering in North Sarasota, FL",
       "meta.description": "Quiero Más Tacos brings the flavors of Mexico to North Sarasota, FL. Find the food truck, see the menu, and book taco catering for your next event.",
+      /* Placeholders (yellow boxes): replace with real info */
+      "ph.dish": "[DISH_NAME]",
+      "ph.price": "[PRICE]",
+      "ph.desc": "[DISH_DESCRIPTION]",
+      "ph.locHours": "[LOCATION & HOURS]",
+      "ph.phone": "[PHONE_NUMBER]",
+      "ph.email": "[EMAIL]",
+      "ph.hours": "[HOURS]",
+      "ph.instagram": "[INSTAGRAM_URL]",
+
       "skip": "Skip to content",
       "aria.home": "Quiero Más Tacos, home",
       "aria.nav": "Main",
@@ -33,20 +43,14 @@
       "nav.close": "Close menu",
       "cta.book": "Book Catering",
       "cta.menu": "See the Menu",
-
-      "hero.eyebrow": "Food truck & catering · North Sarasota, FL",
       "hero.title": "The flavors of Mexico. <span class=\"accent\">You'll want more.</span>",
-      "hero.lede": "Tacos packed with real Mexican flavor, served from our truck window or brought straight to your party, office or celebration.",
-
-      "menu.eyebrow": "El menú",
+      "hero.lede": "Real Mexican flavor in North Sarasota, FL. Grab your tacos at our truck window, or let us bring them straight to your party, office or celebration.",
       "menu.title": "What's cooking",
       "menu.intro": "Dish names stay in Spanish, the way they should be. Ask at the window about today's specials.",
       "menu.g1": "Tacos",
       "menu.g2": "Specialties",
       "menu.g3": "Sides & drinks",
       "menu.note": "Prices and availability may change. Menu items vary by location and event.",
-
-      "cat.eyebrow": "Catering",
       "cat.title": "We bring the taco truck to you",
       "cat.intro": "From backyard birthdays to office lunches, we roll up, set up and keep the tacos coming so you can enjoy your own party.",
       "cat.f1.t": "Celebrations",
@@ -94,8 +98,6 @@
       "err.guestsInvalid": "Please enter a whole number.",
       "err.guestsMin": "Catering starts at 10 guests.",
       "err.location": "Please enter the event location or address.",
-
-      "find.eyebrow": "¿Dónde estamos?",
       "find.title": "Find the truck",
       "find.intro": "We're rolling around North Sarasota. Check this week's stops below, or follow the truck live on GoTruckster.",
       "find.schedule": "This week's schedule",
@@ -105,17 +107,11 @@
       "find.gtNote": "Opens GoTruckster in a new tab.",
       "day.mon": "Monday", "day.tue": "Tuesday", "day.wed": "Wednesday", "day.thu": "Thursday",
       "day.fri": "Friday", "day.sat": "Saturday", "day.sun": "Sunday",
-
-      "about.eyebrow": "Nuestra historia",
       "about.title": "Flavors from Mexico, made in Sarasota",
       "about.p1": "Quiero Más Tacos brings the flavors of Mexico to North Sarasota, one taco at a time. The name says it all: once you try one, you'll want more.",
       "about.p2": "<span class=\"ph\">[OWNER_STORY: who started the truck, when, and where the family recipes come from]</span>",
       "about.signoff": "¡Gracias por apoyar lo local!",
-
-      "gal.eyebrow": "Galería",
       "gal.title": "Straight from the truck",
-
-      "contact.eyebrow": "Contacto",
       "contact.title": "Let's talk tacos",
       "contact.phone": "Phone",
       "contact.email": "Email",
@@ -152,6 +148,15 @@
     es: {
       "meta.title": "Quiero Más Tacos | Food truck y catering mexicano en North Sarasota, FL",
       "meta.description": "Quiero Más Tacos trae los sabores de México a North Sarasota, FL. Encuentra el food truck, checa el menú y aparta tu taquiza para tu próximo evento.",
+      "ph.dish": "[NOMBRE_DEL_PLATILLO]",
+      "ph.price": "[PRECIO]",
+      "ph.desc": "[DESCRIPCIÓN_DEL_PLATILLO]",
+      "ph.locHours": "[UBICACIÓN Y HORARIO]",
+      "ph.phone": "[TELÉFONO]",
+      "ph.email": "[CORREO]",
+      "ph.hours": "[HORARIO]",
+      "ph.instagram": "[ENLACE_DE_INSTAGRAM]",
+
       "skip": "Saltar al contenido",
       "aria.home": "Quiero Más Tacos, inicio",
       "aria.nav": "Principal",
@@ -166,20 +171,14 @@
       "nav.close": "Cerrar menú",
       "cta.book": "Aparta tu taquiza",
       "cta.menu": "Ver el menú",
-
-      "hero.eyebrow": "Food truck y taquizas · North Sarasota, FL",
       "hero.title": "El sabor de México. <span class=\"accent\">Vas a querer más.</span>",
-      "hero.lede": "Tacos con puro sabor mexicano, directo de la ventanilla del truck o hasta tu fiesta, oficina o celebración.",
-
-      "menu.eyebrow": "El menú",
+      "hero.lede": "Puro sabor mexicano en North Sarasota, FL. Pide tus tacos en la ventanilla del truck o te los llevamos a tu fiesta, oficina o celebración.",
       "menu.title": "¿Qué hay de comer?",
       "menu.intro": "Los platillos con su nombre de siempre. Pregunta en la ventanilla por las especialidades del día.",
       "menu.g1": "Tacos",
       "menu.g2": "Especialidades",
       "menu.g3": "Acompañamientos y bebidas",
       "menu.note": "Precios y disponibilidad sujetos a cambio. El menú puede variar según la ubicación y el evento.",
-
-      "cat.eyebrow": "Taquizas y eventos",
       "cat.title": "Llevamos el taco truck hasta tu evento",
       "cat.intro": "Desde cumpleaños en el patio hasta comidas de oficina: llegamos, nos instalamos y no paramos de servir tacos para que tú disfrutes tu fiesta.",
       "cat.f1.t": "Celebraciones",
@@ -188,7 +187,7 @@
       "cat.f2.d": "Comidas de equipo, open houses y reuniones de la comunidad.",
       "cat.f3.t": "Calientitos del truck",
       "cat.f3.d": "Servidos al momento desde el truck, ahí mismo donde están tus invitados.",
-      "cat.details": "Paquetes y precios: <span class=\"ph\">[CATERING_PACKAGES_AND_PRICING]</span>",
+      "cat.details": "Paquetes y precios: <span class=\"ph\">[PAQUETES_Y_PRECIOS]</span>",
 
       "form.title": "Cotiza tu taquiza",
       "form.sub": "Cuéntanos de tu evento y te contactamos con disponibilidad y una cotización.",
@@ -227,28 +226,20 @@
       "err.guestsInvalid": "Escribe un número entero.",
       "err.guestsMin": "Las taquizas son a partir de 10 invitados.",
       "err.location": "Escribe el lugar o la dirección del evento.",
-
-      "find.eyebrow": "¿Dónde estamos?",
       "find.title": "Encuentra el truck",
       "find.intro": "Andamos por North Sarasota. Checa las paradas de esta semana o sigue el truck en vivo en GoTruckster.",
       "find.schedule": "Horario de esta semana",
       "find.area": "Zona de servicio",
-      "find.areaMore": "Distancia para taquizas: <span class=\"ph\">[SERVICE_AREA_DETAILS]</span>",
+      "find.areaMore": "Distancia para taquizas: <span class=\"ph\">[DETALLES_DE_LA_ZONA]</span>",
       "find.gt": "Síguenos en GoTruckster",
       "find.gtNote": "Abre GoTruckster en otra pestaña.",
       "day.mon": "Lunes", "day.tue": "Martes", "day.wed": "Miércoles", "day.thu": "Jueves",
       "day.fri": "Viernes", "day.sat": "Sábado", "day.sun": "Domingo",
-
-      "about.eyebrow": "Nuestra historia",
       "about.title": "Sabores de México, hechos en Sarasota",
       "about.p1": "Quiero Más Tacos trae los sabores de México a North Sarasota, taco por taco. El nombre lo dice todo: con uno nunca es suficiente.",
-      "about.p2": "<span class=\"ph\">[OWNER_STORY: who started the truck, when, and where the family recipes come from]</span>",
+      "about.p2": "<span class=\"ph\">[HISTORIA_DE_LOS_DUEÑOS: quién empezó el truck, cuándo y de dónde vienen las recetas de la familia]</span>",
       "about.signoff": "¡Gracias por apoyar lo local!",
-
-      "gal.eyebrow": "Galería",
       "gal.title": "Directo del truck",
-
-      "contact.eyebrow": "Contacto",
       "contact.title": "Hablemos de tacos",
       "contact.phone": "Teléfono",
       "contact.email": "Correo",
@@ -385,6 +376,8 @@
   document.querySelectorAll(".photo-slot").forEach(function (slot) {
     var img = slot.querySelector("img");
     if (!img) return;
+    slot.insertAdjacentHTML("afterbegin",
+      '<svg class="slot-border" aria-hidden="true" focusable="false"><rect x="1.5" y="1.5" rx="16" ry="16"/></svg>');
     function ok() { slot.classList.add("has-photo"); slot.classList.remove("is-missing"); }
     function missing() { slot.classList.add("is-missing"); slot.classList.remove("has-photo"); }
     if (img.complete) {
