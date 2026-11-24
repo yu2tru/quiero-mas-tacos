@@ -270,7 +270,6 @@ p { margin: 0 0 1em; }
 /* ---------- Menu ---------- */
 .menu-grid { display: grid; gap: 20px; }
 @media (min-width: 760px) { .menu-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1040px) { .menu-grid { grid-template-columns: repeat(3, 1fr); } }
 .menu-group {
   background: var(--paper); border-radius: var(--radius); padding: 26px 22px 12px;
   box-shadow: var(--shadow); border-top: 6px solid var(--chile);

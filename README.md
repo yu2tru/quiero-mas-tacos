@@ -37,7 +37,7 @@ Anything that couldn't be confirmed from the business's Facebook page or GoTruck
 
 | Placeholder | Where |
 |---|---|
-| `[DISH_NAME]`, `[DISH_DESCRIPTION]`, `[PRICE]` (9 items, 3 groups) | `index.html` → Menu section |
+| `[PRICE]` × 16 menu items | `index.html` → Menu section (text in `script.js`, `ph.price`) |
 | `[CATERING_PACKAGES_AND_PRICING]` | `script.js` → `cat.details` (en + es) |
 | `[LOCATION & HOURS]` × 7 days | `index.html` → Find the Truck |
 | `[SERVICE_AREA_DETAILS]` | `script.js` → `find.areaMore` (en + es) |
@@ -45,30 +45,32 @@ Anything that couldn't be confirmed from the business's Facebook page or GoTruck
 | `[PHONE_NUMBER]`, `[EMAIL]`, `[HOURS]`, `[INSTAGRAM_URL]` | `index.html` → Contact |
 | `[SITE_URL]` | `index.html` → Open Graph meta tags (use the live Cloudflare URL) |
 
-The menu group names ("Tacos", "Specialties", "Sides & drinks") are a suggested structure. Rename them in `script.js` (`menu.g1`–`menu.g3`) once the real menu is known.
+The menu items come from the signs and photos at their setup: street corn, corn in a cup, taco salad in a shell, carne asada fries, cheesy fries, burgers & hot dogs, chicken tenders & fries, corn dogs, boiled peanuts, aguas frescas, crepes, churros, funnel cake, fried Oreos and a mangonada. Short descriptions are based on what the photos show, so confirm them with the owners. Menu text lives in `script.js` (`m.*` keys).
 
 > Text that has a `data-i18n` / `data-i18n-html` attribute is controlled by the `TRANSLATIONS` object in `script.js`. Edit it there, in **both** `en` and `es`.
 
 ## Photo slots
 
-Each photo slot shows a labeled placeholder box until a matching file exists in `/images`. As soon as you add a file with the exact name below, it appears; no code changes are needed. Export photos as JPG at roughly the size shown (quality ~80, ideally under 300 KB each).
+Each photo slot shows a labeled placeholder box with a moving dashed border until a matching file exists in `/images`. As soon as you add a file with the exact name, it appears; no code change is needed.
 
-| File (`/images/…`) | What it should show | Suggested size |
+| File (`/images/…`) | Shows | Status |
 |---|---|---|
-| `hero-tacos.jpg` | Hero: close-up of signature tacos, bright | 1600×1200 |
-| `catering-event-setup.jpg` | Truck or taco bar set up at an event, guests in line | 1200×1500 (portrait) |
-| `truck-exterior.jpg` | Truck exterior, wide shot, daytime | 1400×1050 |
-| `gallery-tacos-closeup.jpg` | Tacos close-up | 900×1200 (portrait) |
-| `gallery-plate-overhead.jpg` | Full plate, shot from overhead | 1200×900 |
-| `gallery-salsas.jpg` | Salsas and toppings | 1200×900 |
-| `gallery-event-crowd.jpg` | Guests lined up at an event, wide | 1600×900 |
-| `gallery-service-window.jpg` | Team serving at the truck window | 1200×900 |
-| `gallery-truck-evening.jpg` | Truck lit up in the evening | 1200×900 |
-| `og-image.jpg` | Social share preview (not shown on page) | 1200×630 |
+| `hero-loaded-taco-tray.jpg` | Hero: loaded tray with cilantro, crema, pico and lime | ✅ added |
+| `catering-night-setup.jpg` | Stand at night, lit-up sign, guests in line (portrait) | ⬜ needed |
+| `setup-daytime.jpg` | Full daytime setup with tents, menu signs, flags | ⬜ needed |
+| `gallery-mangonada.jpg` | Mangonada with tamarind straw (portrait) | ⬜ needed |
+| `gallery-churros.jpg` | Churros with chocolate | ✅ added (low-res) |
+| `gallery-crepas-fresas.jpg` | Crepes with strawberries | ✅ added (low-res) |
+| `gallery-elote.jpg` | Elote / street corn (wide) | ⬜ needed |
+| `gallery-oreos-fritas.jpg` | Fried Oreos | ✅ added (low-res) |
+| `gallery-funnel-cake.jpg` | Funnel cake with cream and chocolate | ✅ added (low-res) |
+| `og-image.jpg` | Social share preview, 1200×630 (not on page) | ✅ added |
 
-Alt text for every photo already exists in both languages (`alt.*` keys in `script.js`). Until the files are added, the browser console shows a "404" for each missing photo. That's expected, and the messages go away once the photos are in place.
+Export photos as JPG, quality ~80, ideally under 300 KB. The four dessert photos came from small flyer tiles (~270 px). Swap in larger originals if the owners have them.
 
-There is no logo file yet. The header uses a styled wordmark plus a simple taco icon. To use a real logo, replace the `.brand-mark` SVG in `index.html` with an `<img src="images/logo.png" …>`.
+Alt text for every photo is in both languages (`alt.*` keys in `script.js`). A missing file shows as a "404" in the browser console until it's added; that's expected.
+
+There is no logo file yet. The header uses a styled wordmark plus a simple taco icon.
 
 ## Catering form
 
